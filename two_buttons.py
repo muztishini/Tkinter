@@ -2,7 +2,7 @@ import tkinter as tk
 
 
 def write_slogan():
-    print("Tkinter is easy to use!!!")
+    print("Tkinter is easy from user!!!")
 
 
 root = tk.Tk()

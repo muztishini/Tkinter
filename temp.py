@@ -28,10 +28,10 @@ temp_c = tk.DoubleVar()
 temp_f = tk.DoubleVar()
 
 entry_celsius = tk.Entry(frame, width=7, textvariable=temp_c)
-label_unitc = tk.Label(frame, text="C")
+label_unitc = tk.Label(frame, text="°C")
 label_equal = tk.Label(frame, text="is equal to")
 label_fahrenheit = tk.Label(frame, textvariable=temp_f)
-label_unitf = tk.Label(frame, text="F")
+label_unitf = tk.Label(frame, text="°F")
 button_convert = tk.Button(frame, text="Convert", command=convert)
 
 entry_celsius.grid(row=0, column=1, padx=5, pady=5)
