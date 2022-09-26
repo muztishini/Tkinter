@@ -10,7 +10,7 @@ def counter_label(label):
         global counter
         counter += 1
         label.config(text=str(counter))
-        label.after(1000, count)
+        label.after(1000, count) # 1000 miliseconds
     count()
 
 
