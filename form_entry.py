@@ -26,7 +26,7 @@ def makeform(root, fields):
 if __name__ == '__main__':
     root = Tk()
     ents = makeform(root, fields)
-    root.bind('', (lambda event, e=ents: fetch(e)))
+    root.bind('<Return>', (lambda event, e=ents: fetch(e)))
     b1 = Button(root, text="Show", command=(lambda e=ents: fetch(e)))
     b1.pack(side=LEFT, padx=5, pady=5)
     b2 = Button(root, text='Quit', command=root.quit)
